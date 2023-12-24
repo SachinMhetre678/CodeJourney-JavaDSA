@@ -1,0 +1,203 @@
+/* *{
+    background-color: #EEEEEE;
+} */
+
+.profile{
+    height: 42rem;
+    display: flex;
+    background-color: #DBE2EF;
+    justify-content: space-evenly; 
+}
+
+.description{
+    height: 42rem;
+    background-color: #DBE2EF;
+    width: 750px;
+}
+
+.box{
+    margin-top: 250px;
+    margin-left: 150px;
+    /* width: 500px; */
+    height: 150px;
+    text-align: center;
+    background-color: #DBE2EF;
+} 
+
+.box p{
+    background-color: #DBE2EF;
+    font-weight: 600;
+    text-align: center;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.pic{
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 80px;
+    width: 500px;
+    height: 500px;
+    background-color: #DBE2EF;
+    border-radius: 50%;
+    box-shadow: 1px 1px 180px #31304D;
+}
+
+.pic img{
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.intro{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration: underline;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.introduction{
+    text-decoration: underline;
+    text-align: center;
+    font-family :Georgia, 'Times New Roman', Times, serif;
+}
+
+.card{
+    width: 25rem;
+    display: space-evenly;
+    padding: 0.625rem;
+    border: 2px solid black;
+    border-radius: 1.5rem;
+    margin: 0.625rem;
+    /* color: white; */
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+.array{
+    padding: 0.625rem 0 0.625rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img{
+    height: 18.75rem;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.card:hover{
+    box-shadow: 1px 1px 18px red;
+    transition: 1s;
+}
+
+.card a{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.sort{
+    padding: 0.625rem 0 0.625rem;
+    display: flex ;
+    justify-content: space-evenly;
+}
+
+.twoDarray{
+    padding: 0.625rem 0;
+    display: flex ;
+    justify-content: space-evenly;
+}
+
+.card:hover{
+    box-shadow: 1px 1px 18px red;
+    transition: 1s;
+}
+
+.string{
+    padding: 0.625rem 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bit_manipulation{
+    padding: 0.625rem 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Recursion{
+    padding: 0.625rem 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.divide_conquer{
+    padding: 0.625rem 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (min-width:330px) and (max-width : 440px)  {
+    .description{
+        margin-right: 10px;
+        width: 100px;
+    }
+    .box {
+        font-size: 10px;
+        margin-top: 450px;
+        width: 600px;
+        padding-right: 200px;
+        margin-left: 5px;
+        padding-left: 100px;
+    }
+
+    .box p{
+        word-spacing: 8px;
+        letter-spacing: 1px;
+    }
+
+    .pic{
+        height: 300px;
+        width: 300px;
+        margin-left: 0px;
+        margin-right: 110px;
+    }
+
+    .pic img{
+        height: 300px;
+        width: 300px;
+    }
+    .array{
+        flex-wrap: wrap;
+    }
+
+    .sort{
+        flex-wrap: wrap;
+    }
+
+    .twoDarray{
+        flex-wrap: wrap;
+    }
+
+    .string{
+        flex-wrap: wrap;
+    }
+
+    .bit_manipulation{
+        flex-wrap: wrap;
+    }
+
+    .Recursion{
+        flex-wrap: wrap;
+    }
+
+    .divide_conquer{
+        flex-wrap: wrap;
+    }
+    
+}
+
