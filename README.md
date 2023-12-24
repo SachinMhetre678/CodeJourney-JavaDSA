@@ -60,12 +60,8 @@ I will regularly update this repository with new content as I learn and explore 
 
 If you'd like to contribute, provide feedback, or suggest improvements to my study materials, please feel free to fork the repository, make your changes, and submit a pull request. Your contributions are highly appreciated!
 
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 📞 Contact
 
-Sachin Mhetre - [Your Email]
+Sachin Mhetre - [sachinmhetre678@gmail.com]
 
 GitHub: [SachinMhetre678](https://github.com/SachinMhetre678)
