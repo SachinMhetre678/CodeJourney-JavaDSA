@@ -141,6 +141,12 @@ img{
     justify-content: space-evenly;
 }
 
+.backtracking{
+    padding: 0.625rem 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 @media (min-width:330px) and (max-width : 440px)  {
     .description{
         margin-right: 10px;
@@ -196,6 +202,10 @@ img{
     }
 
     .divide_conquer{
+        flex-wrap: wrap;
+    }
+
+    .backtracking{
         flex-wrap: wrap;
     }
     
